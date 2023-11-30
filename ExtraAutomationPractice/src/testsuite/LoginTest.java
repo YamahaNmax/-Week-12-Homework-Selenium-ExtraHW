@@ -204,7 +204,7 @@ public class LoginTest extends BaseTest {
 
     @Test
 
-    public void searchProduct(){
+    public void searchProduct() {
 
         String actualText1 = driver.findElement(By.xpath("//div[@class='header-middle']/div[1]/div[1]/div[2]/div/ul/li[1]/a")).getText();
         String expectedText1 = "Home";
